@@ -38,12 +38,6 @@ while not game.hit_bottom:
     elif score.ball_score > 10:
         time.sleep(0)
 
-    if score.ball_score == 5:
-        text = ball.canva.create_text(TEXT_PLACE, TEXT_PLACE, text='Вы набрали 5 очков', font=('Helvetica', 25), fill=COLOR_TEXT)
-    
-    if score.ball_score > 5:
-        canva.delete(text)
-
 
 
 time.sleep(5)
